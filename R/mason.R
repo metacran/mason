@@ -13,6 +13,10 @@
 
 mason <- function(generator = NULL) {
 
+  if (is.null(generator)) {
+    return(mason_default())
+  }
+
   check_dir_empty()
 
   ## Get the survey and run it
@@ -25,6 +29,16 @@ mason <- function(generator = NULL) {
 
   ## Post-processing
   run_generator_build(generator, answers)
+}
+
+#' @importFrom whoami username
+
+mason_default <- function() {
+  say("Hello ", username(), "!\n",
+      "I am Mason, a friendly builder, and can help you ",
+      "create slick R packages.\n",
+      "Please see more at ",
+      red("https://github.com/gaborcsardi/mason"))
 }
 
 #' @importFrom utils globalVariables

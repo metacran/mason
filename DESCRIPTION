@@ -12,4 +12,6 @@ BugReports: https://github.com/gaborcsardi/mason/issues
 Imports:
     ask,
     falsy,
-    whisker
+    whisker,
+    crayon,
+    whoami
