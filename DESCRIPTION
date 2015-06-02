@@ -1,8 +1,15 @@
 Package: mason
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph)
-Depends: R (>= 3.2.0)
-License: What license is it under?
+Title: Scaffolding for R Packages
+Version: 1.0.0
+Author: Gabor Csardi
+Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
+Description: Create full-featured R packages, with an appropriate
+    directory structure, a testing framework, a README file, etc.
+License: MIT + file LICENSE
 LazyData: true
+URL: https://github.com/gaborcsardi/mason
+BugReports: https://github.com/gaborcsardi/mason/issues
+Imports:
+    ask,
+    falsy,
+    whisker
