@@ -1,7 +1,8 @@
 
 #' @importFrom crayon red
 
-ascii_mason <- c(
+ascii_mason <- function() {
+  c(
      ("       _____      "),
      ("     .'     '.    "),
      ("    |  .__._  |   "),
@@ -14,15 +15,17 @@ ascii_mason <- c(
   red("_|___|_______|___|"),
   red("___|___|___|___|__"),
   red("_|___|___|___|___|")
-)
+  )
+}
 
 say <- function(...) {
+  am <- ascii_mason()
   text <- paste0(..., collapse = "")
   width <- min(70, getOption("width"))
   ttext <- strsplit(text, "\n")[[1]]
-  ttext <- strwrap(ttext, width = width - max(col_nchar(ascii_mason)) - 10)
+  ttext <- strwrap(ttext, width = width - max(col_nchar(am)) - 10)
   ttext <- center_text(ttext)
-  cat(add_bubble(ascii_mason, ttext), sep = "\n")
+  cat(add_bubble(am, ttext), sep = "\n")
 }
 
 #' @importFrom crayon col_nchar
