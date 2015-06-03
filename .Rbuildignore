@@ -1,2 +1,4 @@
 ^mason.Rproj$
 ^tags$
+^appveyor.yml$
+^.travis.yml$
