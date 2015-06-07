@@ -13,7 +13,7 @@ install:
 # Adapt as necessary starting from here
 
 build_script:
-  - travis-tool.sh install_github gaborcsardi/crayon gaborcsardi/whoami gaborcsardi/keypress gaborcsardi/prettysymbols gaborcsardi/ask
+  - travis-tool.sh install_github gaborcsardi/crayon gaborcsardi/whoami gaborcsardi/keypress gaborcsardi/clisymbols gaborcsardi/ask
   - travis-tool.sh install_deps
 
 test_script:
