@@ -35,18 +35,14 @@ You can install Mason and its dependencies from GitHub:
 
 ```r
 library(devtools)
-install_github("gaborcsardi/crayon")
-install_github("gaborcsardi/whoami")
-install_github("gaborcsardi/keypress")
-install_github("gaborcsardi/clisymbols")
 install_github("gaborcsardi/ask")
-install_github("gaborcsardi/mason")
+install_github("metacran/mason")
 ```
 
 You need to install at least one template as well:
 
 ```r
-install_github("gaborcsardi/mason.rpkg")
+install_github("metacran/mason.rpkg")
 ```
 
 ## Usage
