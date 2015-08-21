@@ -3,7 +3,7 @@
 
 > Friendly Craftsman Who Builds Slick R Packages
 
-[![Linux Build Status](https://travis-ci.org/gaborcsardi/mason.svg?branch=master)](https://travis-ci.org/gaborcsardi/mason)
+[![Linux Build Status](https://travis-ci.org/metacran/mason.svg?branch=master)](https://travis-ci.org/gaborcsardi/mason)
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/mason?svg=true)](https://ci.appveyor.com/project/gaborcsardi/mason)
 [![](http://www.r-pkg.org/badges/version/mason)](http://www.r-pkg.org/pkg/mason)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/mason)](http://www.r-pkg.org/pkg/mason)
