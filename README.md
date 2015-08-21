@@ -15,7 +15,7 @@ template based on your answers, and creates proper metadata files, READMEs
 with badges, git repositories, everything you need to just start writing
 and committing your code.
 
-Mason is extensinble: each template is a separate R package named
+Mason is extensible: each template is a separate R package named
 `mason.<template>`, where `<template>` is the name of the template. To use
 a new template, you need to install it first. Mason will be then able to
 use it immediately, without any configuration.  See
@@ -25,7 +25,7 @@ R package template.
 Mason makes sure that you get your package as quick as possible, with the
 least number of keystrokes: it tries to find out your username, name email
 address, GitHub login name, etc. from your settings, to give you reasonable
-defaults, so that all you need to do is pressing `ENTER` a couple of times.
+defaults, so that all you need to do is press `ENTER` a couple of times.
 
 Mason's role model is [Yeoman](http://yeoman.io).
 
