@@ -35,10 +35,7 @@ You can install Mason and its dependencies from GitHub:
 
 ```r
 library(devtools)
-install_github("gaborcsardi/crayon")
-install_github("gaborcsardi/whoami")
-install_github("gaborcsardi/keypress")
-install_github("gaborcsardi/clisymbols")
+install_github("gaborcsardi/readline")
 install_github("gaborcsardi/ask")
 install_github("gaborcsardi/mason")
 ```
