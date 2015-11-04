@@ -10,7 +10,7 @@ before_install:
   - ./pkg-build.sh bootstrap
 
 install:
-  - ./pkg-build.sh install_github gaborcsardi/crayon gaborcsardi/whoami gaborcsardi/keypress gaborcsardi/clisymbols gaborcsardi/ask
+  - ./pkg-build.sh install_github gaborcsardi/crayon gaborcsardi/whoami gaborcsardi/keypress gaborcsardi/clisymbols gaborcsardi/readline gaborcsardi/ask
 
   - ./pkg-build.sh install_deps
 
