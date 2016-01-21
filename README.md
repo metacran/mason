@@ -37,6 +37,7 @@ You can install Mason and its dependencies from GitHub:
 library(devtools)
 install_github("gaborcsardi/readline")
 install_github("gaborcsardi/ask")
+install_github("metacran/description")
 install_github("metacran/mason")
 ```
 
@@ -44,6 +45,7 @@ You need to install at least one template as well:
 
 ```r
 install_github("metacran/mason.rpkg")
+install_github("metacran/mason.github")
 ```
 
 ## Usage
@@ -59,8 +61,7 @@ setwd("mypackage")
 Then just call Mason with the name of the template:
 
 ```r
-library(mason)
-mason("rpkg")
+mason::mason("github")
 ```
 
 ![](/inst/mason-1.png)
