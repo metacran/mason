@@ -21,14 +21,20 @@ add_dependency <- function(deptype, packages) {
   write_description(desc)
 }
 
-all_fields <- c("Description", "Imports", "Suggests",
-                "Depends", "Enhances", "LinkingTo", "URL",
-                "BugReports", "Author", "Authors@R", "Maintainer")
+read_description <- function(file = "DESCRIPTION") {
+  lines <- readLines(file)
 
-read_description <- function() {
-  read.dcf("DESCRIPTION", keep.white = all_fields)
+  con <- textConnection(lines, local = TRUE)
+  fields <- colnames(read.dcf(con))
+  close(con)
+
+  con <- textConnection(lines, local = TRUE)
+  res <- read.dcf(con, keep.white = fields)
+  close(con)
+
+  res
 }
 
-write_description <- function(desc) {
-  write.dcf(desc, file = "DESCRIPTION", keep.white = all_fields)
+write_description <- function(desc, file = "DESCRIPTION") {
+  write.dcf(desc, file = file, keep.white = colnames(desc))
 }
