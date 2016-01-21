@@ -69,7 +69,7 @@ mason("rpkg")
 
 ![](/inst/mason-3.png)
 
-![](/inst/mason-3.png)
+![](/inst/mason-4.png)
 
 ## License
 
