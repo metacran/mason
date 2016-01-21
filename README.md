@@ -31,21 +31,18 @@ Mason's role model is [Yeoman](http://yeoman.io).
 
 ## Installation
 
-You can install Mason and its dependencies from GitHub:
+You can install Mason and its dependencies from GitHub, using the
+`devtools` package:
 
 ```r
-library(devtools)
-install_github("gaborcsardi/readline")
-install_github("gaborcsardi/ask")
-install_github("metacran/description")
-install_github("metacran/mason")
+devtools::install_github("metacran/mason")
 ```
 
 You need to install at least one template as well:
 
 ```r
-install_github("metacran/mason.rpkg")
-install_github("metacran/mason.github")
+devtools::install_github("metacran/mason.rpkg")
+devtools::install_github("metacran/mason.github")
 ```
 
 ## Usage
