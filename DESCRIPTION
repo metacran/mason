@@ -16,6 +16,7 @@ BugReports: https://github.com/gaborcsardi/mason/issues
 Imports:
     ask,
     crayon,
+    description,
     falsy,
     praise,
     whisker,
