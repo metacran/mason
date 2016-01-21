@@ -15,7 +15,9 @@ URL: https://github.com/gaborcsardi/mason
 BugReports: https://github.com/gaborcsardi/mason/issues
 Imports:
     ask,
-    falsy,
-    whisker,
     crayon,
+    falsy,
+    praise,
+    whisker,
     whoami
+RoxygenNote: 5.0.1
