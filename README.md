@@ -69,6 +69,8 @@ mason("rpkg")
 
 ![](/inst/mason-3.png)
 
+![](/inst/mason-3.png)
+
 ## License
 
 MIT © [Gábor Csárdi](https://github.com/gaborcsardi).
