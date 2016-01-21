@@ -21,4 +21,8 @@ Imports:
     praise,
     whisker,
     whoami
+Remotes:
+    gaborcsardi/readline,
+    gaborcsardi/ask,
+    metacran/description
 RoxygenNote: 5.0.1
