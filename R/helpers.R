@@ -1,5 +1,5 @@
 
-#' @importFrom description description
+#' @importFrom desc description
 #' @export
 
 add_dependency <- function(deptype, packages) {

@@ -3,12 +3,12 @@ Title: Friendly Craftsman Who Builds Slick R Packages
 Version: 1.0.0
 Author: Gabor Csardi
 Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
-Description: Create full-featured R packages, interactively, based on a couple of
-    questions. They will have the appropriate directory structure, a
-    testing framework, a README file with badges, GitHub integration, etc.
-    Mason has a simple templating system, each template is provided in a
-    separate package. The 'mason.rpkg' package contains a generic R package
-    and it is a good place to start.
+Description: Create full-featured R packages, interactively, based on a couple
+    of questions. They will have the appropriate directory structure, a testing
+    framework, a README file with badges, GitHub integration, etc. Mason has a
+    simple templating system, each template is provided in a separate package. The
+    'mason.rpkg' package contains a generic R package and it is a good place to
+    start.
 License: MIT + file LICENSE
 LazyData: true
 URL: https://github.com/gaborcsardi/mason
@@ -16,13 +16,11 @@ BugReports: https://github.com/gaborcsardi/mason/issues
 Imports:
     ask,
     crayon,
-    description,
+    desc,
     falsy,
     praise,
     whisker,
     whoami
-Remotes:
-    gaborcsardi/readline,
-    gaborcsardi/ask,
-    metacran/description
+Remotes: gaborcsardi/readline,
+    gaborcsardi/ask
 RoxygenNote: 5.0.1
