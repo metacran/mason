@@ -22,5 +22,6 @@ Imports:
     whisker,
     whoami
 Remotes: gaborcsardi/readline,
-    gaborcsardi/ask
+    gaborcsardi/ask,
+    gaborcsardi/falsy
 RoxygenNote: 5.0.1
